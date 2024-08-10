@@ -1,0 +1,60 @@
+.Option {
+  text-decoration: none;
+  border-radius: 12px; /* Suavizado del borde */
+  margin: 0 40px; /* Separación reducida */
+  width: auto;
+  padding: 10px; /* Tamaño compacto */
+  font-size: 12px; /* Tamaño de fuente ajustado */
+  background: #E94E77; /* Rojo coral */
+  color: #FFFFFF; /* Texto blanco */
+  border: 1px solid #D43F5A; /* Borde rojo oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+
+.Option:hover {
+  background: #D43F5A; /* Rojo más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de zoom */
+}
+
+.ActiveOption {
+  text-decoration: none;
+  border-radius: 12px; /* Consistencia con .Option */
+  margin: 0 40px; /* Consistencia con .Option */
+  width: auto;
+  padding: 10px; /* Consistencia con .Option */
+  font-size: 14px; /* Texto más prominente */
+  background: #FF6F00; /* Naranja brillante */
+  color: #FFFFFF; /* Texto blanco */
+  border: 1px solid #E65C00; /* Borde naranja oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+
+.ActiveOption:hover {
+  background: #E65C00; /* Naranja más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de zoom */
+}
+
+.nav-image {
+  width: 30px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene las proporciones de la imagen */
+  margin-right: 10px; /* Espacio entre la imagen y el título */
+  vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px; /* Tamaño del texto del título */
+  color: #343a40; /* Color del texto del título */
+  text-decoration: none; /* Asegura que no haya subrayado */
+}

@@ -1,0 +1,37 @@
+.CartWidget {
+    width: auto;
+    padding: 10px;
+    font-size: 12px; /* Tamaño de fuente para buena visibilidad */
+    background: #ff6f00; /* Color de fondo naranja brillante */
+    border-radius: 12px; /* Bordes redondeados */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #ff3d00; /* Borde rojo brillante */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transición suave */
+}
+
+.CartWidget:hover {
+    background: #ff3d00; /* Fondo rojo brillante al pasar el ratón */
+    border-color: #ff6f00; /* Borde naranja brillante al pasar el ratón */
+}
+
+.CartImg {
+    margin-right: 8px;
+    width: 24px; /* Tamaño fijo para la imagen */
+    height: auto; /* Mantener proporciones */
+}
+
+.CartQuantity {
+    background-color: #fff; /* Fondo blanco para el número de artículos */
+    color: #ff3d00; /* Texto rojo brillante */
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 10px; /* Tamaño de la fuente en el número */
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+.loading-message {
+    font-size: 24px;
+    color: #FF6F00; /* Color naranja para destacar el mensaje de carga */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #FF6F00; /* Borde naranja */
+    border-radius: 8px; /* Bordes redondeados */
+    background: rgba(255, 165, 0, 0.1); /* Fondo de color naranja muy suave */
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.2); /* Sombra para darle profundidad */
+    font-weight: bold; /* Fuente en negrita */
+}
+
+.success-message {
+    font-size: 24px;
+    color: #28a745; /* Color verde para indicar éxito */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #28a745; /* Borde verde */
+    border-radius: 8px; /* Bordes redondeados */
+    background: rgba(40, 167, 69, 0.1); /* Fondo de color verde muy suave */
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2); /* Sombra para darle profundidad */
+    font-weight: bold; /* Fuente en negrita */
+}
+
+/* Animación para suavizar la entrada del mensaje */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loading-message, .success-message {
+    animation: fadeIn 0.5s ease-in-out;
+}

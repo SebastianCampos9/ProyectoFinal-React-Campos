@@ -1,0 +1,9 @@
+.App {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-confeti-colores-espacio-texto_1017-32374.jpg?t=st=1723311446~exp=1723315046~hmac=99efb537bb7414c92c5fe00a656af4fbae8a6df0b429bf88dc76d179a2d68056&w=826'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
