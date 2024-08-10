@@ -9,7 +9,7 @@ export const CartProvider = ({children}) => {
     const isInCart = (id) => {
       return cart.some(prod => prod.id === id)
     };
-    // funcionalidad de Agregar al carrito
+    // La funcion para agregar al carrito ...
     const addItem = (productoToAdd) => {
         if(!isInCart(productoToAdd.id)){
             setCart( prev => [...prev, productoToAdd])
@@ -46,8 +46,6 @@ export const CartProvider = ({children}) => {
     }
 
     const totalQuantity = getTotalQuantity()
-
-    // Totalizador de elemento en el carrito
 
     const obj = { 
         cart, 

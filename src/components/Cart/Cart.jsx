@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useCart } from '../../hooks/useCart'; // Asegúrate de que la ruta sea correcta
+import { useCart } from '../../hooks/useCart'; 
 import CartItem from '../CartItem/CartItem';
-import './Cart.css'; // Asegúrate de que esta importación sea correcta
+import './Cart.css'; 
 
 const Cart = () => {
-    const { cart, getTotal, totalQuantity, clearCart } = useCart(); // Desestructurar clearCart del contexto
+    const { cart, getTotal, totalQuantity, clearCart } = useCart(); 
     const total = getTotal();
 
     if (totalQuantity === 0) {

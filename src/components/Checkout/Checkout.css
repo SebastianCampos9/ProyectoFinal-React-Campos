@@ -1,30 +1,30 @@
 .loading-message {
     font-size: 24px;
-    color: #FF6F00; /* Color naranja para destacar el mensaje de carga */
+    color: #FF6F00; 
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    border: 2px solid #FF6F00; /* Borde naranja */
-    border-radius: 8px; /* Bordes redondeados */
-    background: rgba(255, 165, 0, 0.1); /* Fondo de color naranja muy suave */
-    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.2); /* Sombra para darle profundidad */
-    font-weight: bold; /* Fuente en negrita */
+    border: 2px solid #FF6F00; 
+    border-radius: 8px; 
+    background: rgba(255, 165, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.2); 
+    font-weight: bold; 
 }
 
 .success-message {
     font-size: 24px;
-    color: #28a745; /* Color verde para indicar éxito */
+    color: #28a745; 
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    border: 2px solid #28a745; /* Borde verde */
-    border-radius: 8px; /* Bordes redondeados */
-    background: rgba(40, 167, 69, 0.1); /* Fondo de color verde muy suave */
-    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2); /* Sombra para darle profundidad */
-    font-weight: bold; /* Fuente en negrita */
+    border: 2px solid #28a745; 
+    border-radius: 8px; 
+    background: rgba(40, 167, 69, 0.1); 
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2); 
+    font-weight: bold; 
 }
 
-/* Animación para suavizar la entrada del mensaje */
+
 @keyframes fadeIn {
     from {
         opacity: 0;

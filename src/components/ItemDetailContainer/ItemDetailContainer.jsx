@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-//import { getProductById } from "../../asyncMock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import "./ItemDetailContainer.css";
 
@@ -8,15 +7,15 @@ import { doc, getDoc } from "firebase/firestore";
 import { db } from "../../services/firebase";
 
 const ItemDetailContainer = () => {
-  // tomar de la url el id
+  // aca tomamos de la url el id
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const { productId } = useParams();
-  //console.log(productId)
+
   useEffect(() => {
     getDoc(doc(db, "products", productId))
       .then((querySnapshot) => {
-        //console.log(res);
+        
         const product = {id: querySnapshot.id, ...querySnapshot.data()}
         setProduct(product);
       })
