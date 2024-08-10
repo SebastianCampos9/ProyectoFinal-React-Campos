@@ -1,0 +1,49 @@
+.button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+    transform: scale(1.05); /* Efecto de zoom */
+  }
+  
+  .button:active {
+    background-color: #388e3c; /* Verde aún más oscuro */
+    transform: scale(1.02); /* Efecto de presionado */
+  }
+  
+  .decrement-button {
+    background-color: #f44336; /* Rojo */
+  }
+  
+  .decrement-button:hover {
+    background-color: #d32f2f; /* Rojo más oscuro */
+  }
+  
+  .increment-button {
+    background-color: #2196F3; /* Azul */
+  }
+  
+  .increment-button:hover {
+    background-color: #1976D2; /* Azul más oscuro */
+  }
+  
+  .add-button {
+    background-color: #FF9800; /* Naranja */
+  }
+  
+  .add-button:hover {
+    background-color: #F57C00; /* Naranja más oscuro */
+  }
+  

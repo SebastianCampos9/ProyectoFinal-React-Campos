@@ -8,14 +8,13 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartProvider } from "./context/CartContext";
 import { NotificationProvider } from "./context/NotificationContext";
-import './styles.css'
 
 function App() {
   return (
     <BrowserRouter>
       <NotificationProvider>
         <CartProvider>
-          <div className="App"> {/* Aplica la clase App aquí */}
+          <div className="App"> 
             <NavBar title="LIP" imageSrc={"https://scontent.fepa8-1.fna.fbcdn.net/v/t39.30808-6/305480084_419946430123891_6441192320849204842_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=YpRwr-f1p2oQ7kNvgGbVBPU&_nc_ht=scontent.fepa8-1.fna&oh=00_AYDjLvz1jVdDpZWaTmZ7_VxeCstj9nP3yDhueRY3gvOQsg&oe=66BD6EE3"} />
             <Routes>
               <Route exact path="/" element={<ItemListContainer />} />
