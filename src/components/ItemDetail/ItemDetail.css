@@ -1,0 +1,29 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+  }
+
+.styled-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .styled-link:active {
+    background-color: #003d79;
+  }
+  

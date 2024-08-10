@@ -6,3 +6,14 @@
     min-height: 80vh;
     padding: 10px;
 }
+
+.loadingMessage {
+    color: white;
+    background-color: #f74545;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}

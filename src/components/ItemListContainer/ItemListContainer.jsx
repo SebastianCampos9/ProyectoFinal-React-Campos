@@ -17,11 +17,11 @@ function ItemListContainer({greetings}) {
         <h3
           style={{
             color: "white",
-            backgroundColor: "#d68fff",
+            backgroundColor: "#f78645",
             textAlign: "center",
           }}
         >
-          Cargando productos...
+          Cargando productos, espere por favor...
         </h3>
       );
     }

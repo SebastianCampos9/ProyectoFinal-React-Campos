@@ -5,13 +5,14 @@ import './CardWidget.css'
 function CardWidget() {
   const { totalQuantity } = useCart();
   return (
-    <Link className="CartWidget" to="/cart">
+    <Link className="CardWidget" to="/cart">
       <img src={cart} 
-        className="CartImg"
-        style={{width: 25}}
-        alt='cart-widget'
+        className="CardImg"
+        alt='card-widget'
       />
-      {totalQuantity}
+      {totalQuantity > 0 && (
+        <div className="CardQuantity">{totalQuantity}</div>
+      )}
     </Link>
   );
 }
